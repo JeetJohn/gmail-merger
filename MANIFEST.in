@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include gmail_mail_merger *.py
+recursive-include data *.csv
+recursive-include docs *.md
