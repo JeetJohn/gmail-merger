@@ -8,7 +8,6 @@
 
 Send personalized emails to hundreds of recipients using your Gmail drafts. Perfect for outreach campaigns, newsletters, and professional communication while maintaining a personal touch.
 
-![Demo](https://via.placeholder.com/800x400/4A90E2/FFFFFF?text=Gmail+Mail+Merger+Demo)
 
 ## ✨ Features
 
