@@ -1,4 +1,4 @@
-# 📧 Gmail Mail Merger
+# Gmail Mail Merger 📧
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -24,7 +24,7 @@ Send personalized emails to hundreds of recipients using your Gmail drafts. Perf
 ### 1. Installation
 
 ```bash
-git clone https://github.com/[YOUR_USERNAME]/gmail-mail-merger.git
+git clone https://github.com/[YOUR_USERNAME]/gmail-merger.git
 cd gmail-mail-merger
 
 # Create virtual environment
@@ -86,10 +86,10 @@ Save as **draft** (don't send yet!)
 ./run.sh
 
 # Option 2: Using Python module
-python -m gmail_mail_merger.main
+python -m gmail-merger.main
 
 # Option 3: After pip install
-gmail-mail-merger
+gmail-merger
 ```
 
 **Workflow:**
@@ -111,7 +111,7 @@ The script automatically enforces a 2-second delay between emails to prevent rat
 ## 🏗️ Project Structure
 
 ```
-gmail-mail-merger/
+gmail-merger/
 ├── src/                    # Source code
 │   ├── __init__.py
 │   ├── main.py            # Entry point
@@ -148,7 +148,7 @@ See [DESIGN.md](docs/DESIGN.md) for detailed architecture documentation.
 
 ## ⚙️ Configuration
 
-Edit `gmail_mail_merger/config.py` to customize:
+Edit `gmail-merger/config.py` to customize:
 
 ```python
 DELAY_BETWEEN_EMAILS = 2      # Seconds between sends
