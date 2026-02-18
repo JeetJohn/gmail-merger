@@ -25,7 +25,7 @@ Send personalized emails to hundreds of recipients using your Gmail drafts. Perf
 
 ```bash
 git clone https://github.com/[YOUR_USERNAME]/gmail-merger.git
-cd gmail-mail-merger
+cd gmail-merger
 
 # Create virtual environment
 python3 -m venv venv
